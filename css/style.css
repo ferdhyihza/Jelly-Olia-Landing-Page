@@ -1,0 +1,125 @@
+:root {
+  --dark-green: #142621;
+  --green: #366f5e;
+  --light-green: #cbddd1;
+  --light: #f6f6ea;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--light);
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.title-section {
+  color: var(--green);
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.title-section-dark {
+  color: var(--light);
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.text-dark-green {
+  color: var(--dark-green);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-light-green {
+  background-color: var(--light-green);
+}
+
+.text-light-green {
+  color: var(--light-green);
+}
+
+.text-light-custom {
+  color: var(--light);
+}
+
+.btn-dark-green {
+  color: var(--light);
+  background-color: var(--dark-green);
+}
+
+.btn-green {
+  color: var(--light);
+  background-color: var(--green);
+}
+.btn-green:hover {
+  color: var(--light-green);
+  background-color: var(--green);
+}
+
+.btn-light {
+  color: var(--green);
+  background-color: var(--light);
+}
+
+.btn-light:hover {
+  color: var(--dark-green);
+  background-color: var(--light);
+  border-color: var(--light);
+}
+
+#heroes {
+  background-image: url('/img/banner/banner-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 64px 64px;
+}
+
+#quote {
+  background-color: var(--light-green);
+}
+
+.quotation {
+  opacity: 50%;
+  color: var(--green);
+  line-height: 0;
+}
+
+#inovasi-gambar {
+  background-image: url('/img/banner/banner-inovasi.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-radius: 0 24px 24px 0;
+  min-height: 200px;
+}
+
+ul {
+  list-style: square url('/img/icon/icon-list.png');
+}
+
+.accordion {
+  --bs-accordion-active-bg: var(--light-green);
+  --bs-accordion-active-color: var(--green);
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+footer {
+  color: var(--light);
+  background-color: var(--green);
+}
